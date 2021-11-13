@@ -1,0 +1,15 @@
+employees:
+   path: /
+   controller: App\Controller\EmployeeController::employees
+
+create:
+   path: /school/create
+   controller: App\Controller\EmployeeController::create
+
+update:
+   path: /school/update{id}
+   controller: App\Controller\EmployeeController::update
+
+delete:
+   path: /school/delete{id}
+   controller: App\Controller\EmployeeController::delete
